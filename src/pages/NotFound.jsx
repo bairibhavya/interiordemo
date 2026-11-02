@@ -1,0 +1,1 @@
+import React from 'react';import {Link} from 'react-router-dom';export default function NotFound(){return <section className="container notfound"><h1>Page not found</h1><p>The space you're looking for doesn't exist.</p><Link to="/" className="btn btn-dark">Back to Home</Link></section>}
